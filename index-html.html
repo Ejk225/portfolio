@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koffi Eliel - Développeur full-stack</title>
+    <link rel="stylesheet" href="styles-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EK</div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Eliel KOFFI</h1>
+            <p class="typing-effect">Développeur Web Full Stack | Expert en Solutions Digitales</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/eliel-koffi-778b942a5/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="#projects" class="cta-button">Voir mes Projets</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="Moi.jpg" alt="Eliel KOFFI">
+                </div>
+                <div class="about-text">
+                    <p>Passionné de technologies web avec 2 ans d'expérience dans le développement de solutions numériques innovantes. Je transforme des concepts complexes en expériences web intuitives et performantes.</p>
+                    <div class="skills-summary">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Développement Full Stack</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-desktop"></i>
+                            <span>Design Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Optimisation de Bases de Données</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-skill="HTML5" data-percentage="95"></div>
+                        <div class="skill-bar" data-skill="CSS3" data-percentage="90"></div>
+                        <div class="skill-bar" data-skill="JavaScript" data-percentage="85"></div>
+                        <div class="skill-bar" data-skill="React" data-percentage="80"></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-skill="Node.js" data-percentage="85"></div>
+                        <div class="skill-bar" data-skill="Python" data-percentage="75"></div>
+                        <div class="skill-bar" data-skill="PHP" data-percentage="70"></div>
+                        <div class="skill-bar" data-skill="SQL" data-percentage="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <img src="Image TweetBook.png" alt=" Projet TweetBook">
+                    <div class="project-info">
+                        <h3>Plateforme de discution</h3>
+                        <p>Application web de poste de tweets et de discussions entre amis.</p>
+                        <div class="project-tags">
+                            <samp>Outille: </samp>
+                            <span>HTML5,</span>
+                            <span>CSS3,</span>
+                            <span>PHP,</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-github"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-demo">Démo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="LaraApp.png" alt="page d'accueil de LaraAPP">
+                    <div class="project-info">
+                        <h3>Système de gestion interactif d’utilisateurs et contenus</h3>
+                        <p> Développement d'une plateforme de location immobilière avec une interface utilisateur pour consulter
+                            et réserver des propriétés, et une interface d’administration pour gérer les annonces, les utilisateurs
+                            et les réservations.
+                            <!--
+                            <br>- Structuration complète de la base de données et des modèles métiers.
+                            <br>- Mise en place d’un système d’authentification avec interfaces sécurisées.
+                            <br>- Utilisation de composants dynamiques avec Blade, Livewire, Breeze et TailwindCSS.
+                            <br>- Création d’une interface d’administration via Filament pour la gestion avancée des utilisateurs et des contenus.-->
+                        </p>
+                        <div class="project-tags">
+                            <span><strong>Outilles:</strong> PHP, Laravel, Blade, TailwindCSS, Livewire, Filament, Breeze.</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-github"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-demo">Démo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="DOTNETApp.png" alt="page d'accueil de LaraAPP">
+                    <div class="project-info">
+                        <h3>DOTNETAPP</h3>
+                        <p>Développement d’une application web permettant la consultation et la gestion de produits, 
+                            avec une distinction claire entre les interfaces utilisateur et administrateur.
+                            <!--
+                            <br>- Authentification sécurisée avec gestion des rôles (utilisateur/admin).
+                            
+                            <br>- Interface responsive adaptée à chaque type de profil.
+                            
+                            <br>- Partie utilisateur : navigation simple, filtrage dynamique des produits par catégorie, inscription personnalisée.
+                            
+                            <br>- Partie administrateur : ajout, modification et suppression de produits, gestion des utilisateurs et de leurs rôles.</p>-->
+                        <div class="project-tags">
+                            <span><strong>Outilles:</strong> JetBrains, ASP.NET, C#, Entity Framework Core.</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-github"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-demo">Démo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <img src="FlowSync.png" alt="page d'accueil de LaraAPP">
+                    <div class="project-info">
+                        <h3>FlowSync</h3>
+                        <p>Création d'une application dédiée à la recherche d’opportunités professionnelles,
+                            intégrant l’automatisation de la collecte de données, 
+                            la génération de factures, l’envoi d’e-mails, et la prise de rendez-vous avec un coach.
+                        <div class="project-tags">
+                            <span><strong>Outilles:</strong> Make  Apify  Glide  Aitable.</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://eliel-airtable-app-98rp.glide.page" class="btn-github"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://eliel-airtable-app-98rp.glide.page" class="btn-demo">Démo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <img src="Web scraping.png" alt="image de web scraping">
+                    <div class="project-info">
+                        <h3>Recupération & traitement de donnée</h3>
+                        <p>
+                            Projet qui permet de récupérer automatiquement des informations sur Internet, 
+                            de les trier et de les ranger pour pouvoir les utiliser facilement.
+                        </p>
+                        <div class="project-tags">
+                            <span>Outille: </span>
+                            <span>Python,</span>
+                            <span>BeautifulSoup,</span>
+                            <samp>HTTPx,</samp> 
+                            <samp>MySql,</samp> 
+                            <samp>Pandas.</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-github"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn-demo">Démo</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!--
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            -->
+            
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Votre Nom" required>
+                    <input type="email" id="email" placeholder="Votre Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="reason" required>
+                        <option value="">Motif de contact</option>
+                        <option value="project">Proposition de Projet</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <textarea id="message" placeholder="Votre Message" rows="5" required></textarea>
+                <div class="form-group form-check">
+                    <input type="checkbox" id="gdpr" required>
+                    <label for="gdpr">J'accepte les conditions de traitement des données</label>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eliel KOFFI.</p>
+            <div class="footer-links">
+                <a href="#">Mentions Légales</a>
+                <a href="#">Politique de Confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
